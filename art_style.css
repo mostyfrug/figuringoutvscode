@@ -1,0 +1,46 @@
+* {
+    font-family: Helvetica;
+}
+#main {
+    padding-left: 5px;
+}
+#main h3,p {
+    margin: 15px 0 15px 0;
+}
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url("assets/pattern.jpeg");
+    text-align: center;
+    margin-bottom: 50px;
+}
+h2 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.brushes {
+    background-color: mediumspringgreen;
+}
+.frames {
+    background-color: lightcoral;
+}
+.paint {
+    background-color: skyblue;
+}
+.starting_at {
+    font-weight: bold;
+    color: blue;
+}
+/*makes text info and images centered on a cell phone screen*/
+@media all and (max-width: 500px) {
+    h2, h3, p {
+       text-align: center; 
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
